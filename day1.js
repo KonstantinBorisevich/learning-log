@@ -58,5 +58,20 @@ if (temperature >= 25) {
     
 }
 // Задача 4
-
+let movies = ["harry potter", "the batman", "the Sherlock Holmes", "superman", "spider-man"];
+for (let i = 0; i < movies.length; i++ ){
+  console.log(`${i + 1}. ${movies[i]}`);}
 // Задача 5
+const movie = {
+  title: "the matrix",
+  year: 1999,
+  rating: 2.7
+};
+
+if (movie.rating >= 8) {
+  console.log("TOP");
+} else if (movie.rating >= 5) {
+  console.log("Normal");
+} else {
+  console.log("not recommended");
+}
